@@ -1,7 +1,7 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 // Вебхук и метод
-const webhookUrl = 'https://remzone.bitrix24.pl/rest/9/0noayzv7vu3bsjps/';
+const webhookUrl = '<WEBHOOK>';
 const createLeadUrl = `${webhookUrl}crm.lead.add`;
 
 // Данные нового лида
